@@ -1,38 +1,182 @@
+/* 
+Color Palette 1 
+Alice Blue: E7ECEF
+Cerulean Frost: 6096BA
+Baby Blue Eyes: A3CEF1
+Battleship Grey: 8B8C89
+Onyx: 37393A
+
+
+Color Pallete 2
+Light Cornflower Blue: 9DD1f1
+Light Cyan: 54BCF0
+Red Salsa: F15152
+Onyx: 37393A
+Raisin Black: 1B1B1E
+*/
+
+html, body, div, span, section, h1, h2, h3, h4, h5, h6, p, a, abbr
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color:aliceblue
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-body{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  /* background-color: red; */
+  background-image: url("../src/assets/pictures/comp-phone-pen.jpg");
+  /* height: 150%; */
+  background-position: center;
+  background-size:cover;
+  background-repeat: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-header{
+  display:flex;
+  width:90%;
+  padding-left: 5%;
+  padding-top: 3%;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-develop{
+  color:aliceblue;
+  height:30px;
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+
+.home-links{
+  display:flex;
+  justify-content: space-evenly;
+  width: 40%;
+  /* background-color: turquoise; */
+}
+
+.link-button{
+  height: 30px;
+  background-color: transparent;
+  border-style: none;
+  /* color: #6096BA; */
+  color: #54bcf0;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.link-button:hover{
+  cursor: pointer;
+  color:rgb(28, 28, 153);
+  text-shadow: 0 0 4px #ffffff;
+}
+
+.home-hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 5%;
+  max-width: 40%;
+  height: 30%;
+}
+
+.hero-tombstone{
+  font-size: 60px;
+  font-weight: bold;
+  color: #54bcf0
+}
+
+.hero-description{
+  margin-left: 5%;
+  padding-bottom: 5%;
+  max-width: 50%;
+
+}
+
+
+.contact-body{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  /* background-color: red; */
+  background-image: url("../src/assets/pictures/comp-phone-pen.jpg");
+  /* height: 150%; */
+  background-position: center;
+  background-size:cover;
+  background-repeat: none;
+}
+
+.contact-header{
+  display:flex;
+  width:90%;
+  padding-left: 5%;
+  padding-top: 3%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.contact-form{
+display:flex;
+flex-direction: column;
+width:30%;
+padding-left: 5%;
+/* padding-bottom: 30%; */
+}
+
+.message-input{
+  height:80px;
+}
+
+.submit-button{
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-self: center;
+}
+
+.connection-section{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 30%;
+  padding-bottom: 5%;
+  padding-left: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+.connection-prompt{
+  font-size: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.connection-icons{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+
+.logo{
+  /* width: 120px; */
+  height: 100px;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: red; */
+}
+
+.logo:hover{
+  cursor:pointer;
 }
