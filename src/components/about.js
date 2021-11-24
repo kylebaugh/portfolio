@@ -1,4 +1,6 @@
 import {Link} from 'react-router-dom'
+// import profilePicture from '../assets/pictures/profileNoBackground.png'
+import profilePicture from '../assets/pictures/Headshot.jpg'
 
 const About = () => {
 
@@ -6,7 +8,7 @@ const About = () => {
         <div className='home-body'>
             <section className='home-header'>
                 <section className='home-develop'>
-                    <section>About Page</section>
+                    <section>About Me</section>
                 </section>
                 <section className='home-links'>
                     <Link to='/'>
@@ -21,6 +23,14 @@ const About = () => {
                     <Link to='/contact'>
                         <button className='link-button'>Contact</button>
                     </Link>
+                </section>
+            </section>
+            <section className='about-me'>
+                <section className='about-picture'>
+                    <img src={profilePicture} alt='Profile Pic' />
+                </section>
+                <section className='about-text'>
+                    Culpa ullamco minim aliqua commodo occaecat adipisicing ipsum ullamco incididunt elit enim. Et est aute incididunt do labore cupidatat in occaecat. Elit deserunt dolore ea dolor dolor qui ad. Labore ullamco laborum magna irure sint ut sunt tempor aute nulla non magna.
                 </section>
             </section>
         </div>

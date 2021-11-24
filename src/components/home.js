@@ -6,7 +6,8 @@ const Home = () => {
         <div className='home-body'>
             <section className='home-header'>
                 <section className='home-develop'>
-                    <section>Kyle Baugh</section>
+                    <section className='header-name'>Kyle Baugh</section>
+                    <section className='header-tag'>Full-Stack Web Developer</section>
                 </section>
                 <section className='home-links'>
                     <Link to='/'>
@@ -29,7 +30,10 @@ const Home = () => {
                 <section className='hero-tombstone'>Responsive</section>
             </section>
             <section className='hero-description'>
-                <section>Pariatur ad sit dolor ad. Consectetur ipsum enim ad cillum esse consequat irure. Qui sunt laboris proident cillum et ut ad sint aute. Deserunt cupidatat magna occaecat occaecat enim voluptate id in voluptate.</section>
+                <section>
+                    A Full-Stack Web Development Graduate from DevMountain with a passion for buildling
+                    interesting, efficient, and visually stimulating programs.
+                </section>
             </section>
         </div>
     )
