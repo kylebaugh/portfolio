@@ -1,0 +1,21 @@
+.about-me{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:40%;
+    margin-left: 7.5%;
+    margin-bottom: 5%;
+    /* background-color: royalblue; */
+  }
+  
+  .about-text{
+    margin-top: 7.5%;
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /* .about-picture{
+  } */
+  

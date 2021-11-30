@@ -1,4 +1,8 @@
 import './App.css';
+import './about.css'
+import './home.css'
+import './contact.css'
+import './projects.css'
 import {Routes, Route } from 'react-router-dom';
 // import routes from './routes'
 

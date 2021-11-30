@@ -1,0 +1,135 @@
+
+.projects-body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    /* background-color: red; */
+    background-image: url("../src/assets/pictures/comp-phone-pen.jpg");
+    /* height: 150%; */
+    background-position: center;
+    background-size:cover;
+    background-repeat: none;
+  }
+  
+  .projects-header{
+    display:flex;
+    width:90%;
+    padding-left: 5%;
+    padding-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5%;
+  
+  }
+  
+  .projects-develop{
+    color:aliceblue;
+    height:45px;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  
+  .header-tag{
+    color:aliceblue;
+    height:30px;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 2%;
+  }
+  
+  
+  .home-links{
+    display:flex;
+    justify-content: space-evenly;
+    width: 40%;
+    /* background-color: turquoise; */
+  }
+  
+  .link-button{
+    height: 30px;
+    background-color: transparent;
+    border-style: none;
+    /* color: #6096BA; */
+    color: #54bcf0;
+    font-size: 26px;
+    font-weight: bolder;
+    transition: 0.4s;
+
+  }
+  
+  .link-button:hover{
+    cursor: pointer;
+    color:#ffffff;
+    /* text-shadow: 0 0 4px #ffffff; */
+  }
+  
+  
+  .projectsList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 70vh;
+    align-self: center;
+    width:80vw;
+    padding-top: 2.5vh;
+    /* padding-bottom: 2.5vh; */
+    /* padding-left: 12.5vw; */
+    background-color: rgba(0, 0, 0, 0.749);
+    text-align: center;
+  }
+  
+  .projectsTop{
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  .projectsBottom{
+    display:flex;
+    justify-content: space-around;
+  
+  }
+  
+  .project{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 2.5%;
+    width:40%;
+    align-items: center;
+  }
+  
+  .projectName{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .projectVideo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .projectDescription{
+    font-size: 18px;
+    width:80%;
+  }
+  
+  .techIntro{
+    font-size: 20px;
+  }
+  
+  .projectTechs{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    /* background-color: aqua; */
+    min-width: fit-content;
+    /* margin-left: 100px; */
+    /* max-width: 80%; */
+  
+  }
+  
+  .techImage{
+    max-width: 50px;
+    max-height:50px;
+  }
+  

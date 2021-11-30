@@ -14,8 +14,6 @@ const Contact = () => {
     const [message, setMessage] = useState('')
 
     const submitted = () => {
-
-
         toast('Email Sent!', {
             className:'custom-toast',
             draggable: true,
@@ -26,10 +24,7 @@ const Contact = () => {
                 backgroundColor:'#54bcf0',
                 color:'black',
                 textAlign:'center',
-                
-
             },
-
         })
     }
     
@@ -50,8 +45,6 @@ const Contact = () => {
                 console.log('Email send error')
             })
     }
-
-
 
     return (
         <div className='contact-body'>
@@ -99,11 +92,11 @@ const Contact = () => {
                     <section className='connection-prompt'>You can also find me on:</section>
                     <br/>
                     <section className='connection-icons'>
-                        <a href='https://github.com/kylebaugh' target='_blank' rel="noreferrer noopener">
-                            <img src={github} alt='GitHub' className='logo'/>
-                        </a>
                         <a href='https://www.linkedin.com/in/kyle-baugh' target='_blank' rel="noreferrer noopener">
                             <img src={linkedin} alt='LinkedIn' className='logo'/>
+                        </a>
+                        <a href='https://github.com/kylebaugh' target='_blank' rel="noreferrer noopener">
+                            <img src={github} alt='GitHub' className='logo'/>
                         </a>
                         <a href='https://www.facebook.com/kyle.baugh.12/' target='_blank' rel="noreferrer noopener">
                             <img src={facebook} alt='Facebook' className='logo'/>
