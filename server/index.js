@@ -6,15 +6,11 @@ const path = require('path')
 
 const {SERVER_PORT, SESSION_SECRET} = process.env
 
-const port = process.env.PORT || SERVER_PORT
+// const port = process.env.PORT || SERVER_PORT
 
 const app = express()
 
-app.use(express.static(__dirname + '/../build'))
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../build/index.html'))
-})
 
 
 // Controllers
@@ -32,7 +28,7 @@ app.use(session({
 }))
 
 
-app.listen(port, () => {console.log(`Server connected on ${port}.`)})
+app.listen(SERVER_PORT, () => {console.log(`Server connected on ${SERVER_PORT}.`)})
 
 // Endpoints
 
@@ -43,3 +39,9 @@ app.post('/message', emailCtrl.sendEmail)
 // app.get('*', (req, res) => {
 //     res.sendFile(path.join(__dirname, '../build/index.html'))
 // })
+
+app.use(express.static(__dirname + '/../build'))
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../build/index.html'))
+})
