@@ -4,6 +4,7 @@ import axios from 'axios'
 import {ToastContainer, toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
+import '../cssFiles/contact.css'
 import github from '../assets/pictures/githubLogo.png'
 import linkedin from '../assets/pictures/linkedinLogo.png'
 import facebook from '../assets/pictures/facebookLogo.png'

@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 100vh;
     /* background-color: red; */
-    background-image: url("../src/assets/pictures/comp-phone-pen.jpg");
+    background-image: url("../../src/assets/pictures/comp-phone-pen.jpg");
     /* height: 150%; */
     background-position: center;
     background-size:cover;
@@ -67,20 +67,33 @@
   .projectsList{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    min-height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+    /* min-height: 70vh; */
+    max-height: 75vh;
     align-self: center;
     width:80vw;
-    padding-top: 2.5vh;
-    /* padding-bottom: 2.5vh; */
-    /* padding-left: 12.5vw; */
     background-color: rgba(0, 0, 0, 0.749);
     text-align: center;
+    overflow-y: auto;
+    
   }
   
+  .content{
+    /* overflow-y: auto; */
+    height: calc(100% - 30px);
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+ 
+
   .projectsTop{
     display:flex;
     justify-content: space-around;
+    /* margin-top: 35vh; */
   }
   
   .projectsBottom{
@@ -88,17 +101,45 @@
     justify-content: space-around;
   
   }
+
+
   
   .project{
     display:flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin-bottom: 2.5%;
-    width:40%;
+    width:90%;
+    justify-content: space-around;
     align-items: center;
+    margin-top: 2.5vh;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    /* background-color: aqua; */
   }
-  
+
+  .lastProject{
+    display:flex;
+    /* flex-direction: column; */
+    margin-bottom: 2.5%;
+    width:90%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5vh;
+    padding-bottom: 30px;
+    /* background-color: aqua; */
+  }
+
+  .projectLeft{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    /* background-color: burlywood; */
+  }
+
+
   .projectName{
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
   }
   
@@ -106,14 +147,24 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  .projectRight{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    /* background-color: burlywood; */
+  }
+  
   
   .projectDescription{
-    font-size: 18px;
-    width:80%;
+    font-size: 22px;
+    width:100%;
   }
   
   .techIntro{
-    font-size: 20px;
+    font-size: 22px;
   }
   
   .projectTechs{
@@ -123,8 +174,7 @@
     gap: 20px;
     /* background-color: aqua; */
     min-width: fit-content;
-    /* margin-left: 100px; */
-    /* max-width: 80%; */
+
   
   }
   

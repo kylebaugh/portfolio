@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 // import profilePicture from '../assets/pictures/profileNoBackground.png'
+import '../cssFiles/about.css'
 import profilePicture from '../assets/pictures/Headshot.jpg'
 
 const About = () => {
@@ -27,7 +28,7 @@ const About = () => {
             </section>
             <section className='about-me'>
                 <section className='about-picture'>
-                    <img src={profilePicture} alt='Profile Pic' />
+                    <img class='profilePic' src={profilePicture} alt='Profile Pic' />
                 </section>
                 <section className='about-text'>
                     Culpa ullamco minim aliqua commodo occaecat adipisicing ipsum ullamco incididunt elit enim. Et est aute incididunt do labore cupidatat in occaecat. Elit deserunt dolore ea dolor dolor qui ad. Labore ullamco laborum magna irure sint ut sunt tempor aute nulla non magna.

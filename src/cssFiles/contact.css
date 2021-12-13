@@ -5,7 +5,7 @@
     /* justify-content: space-between; */
     height: 100vh;
     /* background-color: red; */
-    background-image: url("../src/assets/pictures/comp-phone-pen.jpg");
+    background-image: url("../../src/assets/pictures/comp-phone-pen.jpg");
     /* height: 150%; */
     background-position: center;
     background-size:cover;
@@ -42,7 +42,7 @@
   
   .contactGreeter{
     width: 70%;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
   }
   
@@ -132,7 +132,7 @@
   }
   
   .connection-prompt{
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 25px;
   }
   
