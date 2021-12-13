@@ -1,0 +1,158 @@
+
+.contact-body{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 100vh;
+    /* background-color: red; */
+    background-image: url("../src/assets/pictures/comp-phone-pen.jpg");
+    /* height: 150%; */
+    background-position: center;
+    background-size:cover;
+    background-repeat: none;
+  }
+  
+  .contact-header{
+    display:flex;
+    width:90%;
+    padding-left: 5%;
+    padding-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .contactFull{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute 50%; 
+    transform: translateY(15%);
+    /* transform: translateX(-10%); */
+    width: 40%;
+    padding-top: 2.5%;
+    justify-self: center;
+    height: 60%;
+    margin-left:5%;
+    /* background-color: #8b8c8979; */
+    border-radius: 6px;
+    
+  }
+  
+  .contactGreeter{
+    width: 70%;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .contact-form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:70%;
+  /* background-color: aqua; */
+  gap: 20px;
+  /* padding-bottom: 30%; */
+  }
+  
+  .name-input{
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color:black;
+    font-size: 16px;
+    background-color: #8b8c8979;
+    width:75%
+  }
+  
+  .name-input::placeholder{
+    color:black;
+    font-size: 16px;
+  }
+  
+  .email-input{
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color:black;
+    font-size: 16px;
+    background-color: #8b8c8979;
+    width:75%
+  }
+  
+  .email-input::placeholder{
+    color:black;
+    font-size: 16px;
+  }
+  
+  .message-input{
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color:black;
+    font-size: 16px;
+    background-color: #8b8c8979;
+    width:75%;
+    height:130px;
+  
+  }
+  
+  .message-input::placeholder{
+    color:black;
+    font-size: 16px;
+  }
+  
+  
+  
+  .submit-button{
+    width: fit-content;
+    height:fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-self: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color:#54bcf0;
+    border-radius: 6px;
+  }
+  
+  .connection-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+    padding-bottom: 5%;
+  }
+  
+  .connection-prompt{
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  
+  .connection-icons{
+    display: flex;
+    width: 120%;
+    justify-content: space-between;
+  }
+  
+  .logo{
+    height: 65px;
+   }
+  
+  .logo:hover{
+    cursor:pointer;
+  }
+  
+  .custom-toast{
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  

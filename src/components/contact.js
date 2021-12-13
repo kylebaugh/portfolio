@@ -14,8 +14,6 @@ const Contact = () => {
     const [message, setMessage] = useState('')
 
     const submitted = () => {
-
-
         toast('Email Sent!', {
             className:'custom-toast',
             draggable: true,
@@ -26,10 +24,7 @@ const Contact = () => {
                 backgroundColor:'#54bcf0',
                 color:'black',
                 textAlign:'center',
-                
-
             },
-
         })
     }
     
@@ -51,8 +46,6 @@ const Contact = () => {
             })
     }
 
-
-
     return (
         <div className='contact-body'>
             
@@ -63,16 +56,16 @@ const Contact = () => {
 
                 <section className='home-links'>
                     <Link to='/'>
-                        <button className='link-button'>Home</button>
+                        <button class='link-button'>Home</button>
                     </Link>
                     <Link to='/projects'>
-                        <button className='link-button'>Projects</button>
+                        <button class='link-button'>Projects</button>
                     </Link>
                     <Link to='/about'>
-                        <button className='link-button'>About</button>
+                        <button class='link-button'>About</button>
                     </Link>
                     <Link to='/contact'>
-                        <button className='link-button'>Contact</button>
+                        <button class='link-button'>Contact</button>
                     </Link>
                 </section>
             </section>
@@ -99,11 +92,11 @@ const Contact = () => {
                     <section className='connection-prompt'>You can also find me on:</section>
                     <br/>
                     <section className='connection-icons'>
-                        <a href='https://github.com/kylebaugh' target='_blank' rel="noreferrer noopener">
-                            <img src={github} alt='GitHub' className='logo'/>
-                        </a>
                         <a href='https://www.linkedin.com/in/kyle-baugh' target='_blank' rel="noreferrer noopener">
                             <img src={linkedin} alt='LinkedIn' className='logo'/>
+                        </a>
+                        <a href='https://github.com/kylebaugh' target='_blank' rel="noreferrer noopener">
+                            <img src={github} alt='GitHub' className='logo'/>
                         </a>
                         <a href='https://www.facebook.com/kyle.baugh.12/' target='_blank' rel="noreferrer noopener">
                             <img src={facebook} alt='Facebook' className='logo'/>
