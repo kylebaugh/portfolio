@@ -6,13 +6,18 @@ const path = require('path')
 
 const {SERVER_PORT, SESSION_SECRET} = process.env
 
-const port = process.env.PORT || 5240
+const port = process.env.PORT || SERVER_PORT
+
+const app = express()
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, '../public/index.html'))
+})
 
 // Controllers
 const emailCtrl = require('./controllers/emailController')
 
 // Create App Instance
-const app = express()
 
 // Top Level Middleware
 app.use(express.json())
@@ -23,9 +28,6 @@ app.use(session({
     cookie: {maxAge: 1000 * 60 * 60 * 24}
 }))
 
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../public/index.html'))
-})
 
 app.listen(port, () => {console.log(`Server connected on ${port}.`)})
 
