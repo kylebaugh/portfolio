@@ -6,6 +6,8 @@ const path = require('path')
 
 const {SERVER_PORT, SESSION_SECRET} = process.env
 
+const port = process.env.PORT || SERVER_PORT
+
 // Controllers
 const emailCtrl = require('./controllers/emailController')
 
@@ -21,9 +23,14 @@ app.use(session({
     cookie: {maxAge: 1000 * 60 * 60 * 24}
 }))
 
-app.listen(SERVER_PORT, () => {console.log(`Server connected on ${SERVER_PORT}.`)})
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, '..public/index.html'))
+})
+
+app.listen(port, () => {console.log(`Server connected on ${port}.`)})
 
 // Endpoints
+
 app.post('/message', emailCtrl.sendEmail)
 
 // Server 
