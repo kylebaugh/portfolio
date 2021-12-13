@@ -59,7 +59,7 @@
   
   .link-button:hover{
     cursor: pointer;
-    color:#ffffff;
+    /* color:#ffffff; */
     /* text-shadow: 0 0 4px #ffffff; */
   }
   

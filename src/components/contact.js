@@ -56,16 +56,16 @@ const Contact = () => {
 
                 <section className='home-links'>
                     <Link to='/'>
-                        <button className='link-button'>Home</button>
+                        <button class='link-button'>Home</button>
                     </Link>
                     <Link to='/projects'>
-                        <button className='link-button'>Projects</button>
+                        <button class='link-button'>Projects</button>
                     </Link>
                     <Link to='/about'>
-                        <button className='link-button'>About</button>
+                        <button class='link-button'>About</button>
                     </Link>
                     <Link to='/contact'>
-                        <button className='link-button'>Contact</button>
+                        <button class='link-button'>Contact</button>
                     </Link>
                 </section>
             </section>

@@ -58,8 +58,26 @@
   
   .link-button:hover{
     cursor: pointer;
-    color:#ffffff;
-    /* text-shadow: 0 0 4px #ffffff; */
+  }
+
+
+  .link-button:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: relative;
+    background: #54bcf0;
+    color: #54bcf0;
+    transition: width 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
+  }
+  
+  .link-button:hover:after {
+    width: 100%; 
+    left: 0;
   }
   
   .home-hero{
