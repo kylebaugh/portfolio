@@ -6,7 +6,7 @@ const path = require('path')
 
 const {SERVER_PORT, SESSION_SECRET} = process.env
 
-const port = process.env.PORT || SERVER_PORT
+const port = process.env.PORT || 5240
 
 // Controllers
 const emailCtrl = require('./controllers/emailController')
