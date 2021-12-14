@@ -1,3 +1,16 @@
+.about-body{
+  display:flex;
+  flex-direction: column;
+  /* justify-content: space-evnly; */
+  height: 100vh;
+  /* background-color: red; */
+  background-image: url("../../src/assets/pictures/comp-phone-pen.jpg");
+  /* height: 150%; */
+  background-position: center;
+  background-size:cover;
+  background-repeat: none;
+}
+
 .about-me{
     display:flex;
     flex-direction: column;
@@ -23,3 +36,40 @@
     height:55vh;
   }
   
+  @media(max-width:992px){
+
+    .about-me{
+      padding-top:0%;
+      height:80%;
+      margin-top: 5vh;
+      /* background-color: lavender; */
+    }
+    
+    .about-text{
+      font-size: 18px;
+      width: 100%;
+    }
+
+    .profilePic{
+      height:50vh
+    }
+  
+  }
+
+  @media (max-width:850px){
+
+    .about-me{
+      margin-left: 0%;
+      align-self: center;
+    }
+
+    .about-text{
+      font-size: 18px;
+      width: 150%;
+    }
+    
+    .profilePic{
+      height:auto;
+      width:60vw;
+    }
+  }

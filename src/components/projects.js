@@ -15,7 +15,7 @@ const Projects = () => {
         <div className='projects-body'>
             <section className='projects-header'>
                 <section className='projects-develop'>
-                    <section>Projects Page</section>
+                    <section>Projects</section>
                 </section>
                 
                 <section className='home-links'>
@@ -42,8 +42,8 @@ const Projects = () => {
                             <p className='projectName'>Hypogean Dominion</p>
                             <iframe 
                                 className='projectVideo'
-                                width="504"
-                                height="283.5" 
+                                // width="504"
+                                // height="283.5" 
                                 src="https://www.youtube.com/embed/TI2uGmdzhzw" 
                                 title="YouTube video player" 
                                 frameBorder="0" 
@@ -81,8 +81,8 @@ const Projects = () => {
                             <p className='projectName'>Terminology Glossary</p>
                             <iframe 
                                 className='projectVideo'
-                                width="504"
-                                height="283.5" 
+                                // width="504"
+                                // height="283.5" 
                                 src="https://www.youtube.com/embed/TI2uGmdzhzw" 
                                 title="YouTube video player" 
                                 frameBorder="0" 
@@ -105,7 +105,6 @@ const Projects = () => {
                             </p>
                             <br/>
                             <br/>
-                            <br/>
                             <p className='techIntro'>Technologies:</p>
                             <br/>
 
@@ -113,7 +112,7 @@ const Projects = () => {
                                 <img src={reactLogo} alt='React Icon' className='techImage'/>
                                 <img src={nodeJsLogo} alt='Node.js Icon' className='techImage'/>
                                 <img src={axiosLogo} alt='Axios Icon' className='techImage'/>
-                                <img src={bcryptLogo} alt='Bcrypt Icon' className='techImage'/>
+                                {/* <img src={bcryptLogo} alt='Bcrypt Icon' className='techImage'/> */}
                                 <img src={reduxLogo} alt='Redux Icon' className='techImage'/>
                                 <img src={awsLogo} alt='AWS Icon' className='techImage'/>
 
@@ -126,8 +125,8 @@ const Projects = () => {
                             <p className='projectName'>Whos At</p>
                             <iframe 
                                 className='projectVideo'
-                                width="504"
-                                height="283.5" 
+                                // width="504"
+                                // height="283.5" 
                                 src="https://www.youtube.com/embed/TI2uGmdzhzw" 
                                 title="YouTube video player" 
                                 frameBorder="0" 
@@ -164,8 +163,8 @@ const Projects = () => {
                             <p className='projectName'>Find TQC</p>
                             <iframe 
                                 className='projectVideo'
-                                width="504"
-                                height="283.5" 
+                                // width="504"
+                                // height="283.5" 
                                 src="https://www.youtube.com/embed/TI2uGmdzhzw" 
                                 title="YouTube video player" 
                                 frameBorder="0" 
@@ -186,7 +185,6 @@ const Projects = () => {
                             <p className='projectDescription'>
                                 Ad laboris deserunt veniam ad elit duis. Aliquip ad veniam elit fugiat fugiat. Dolor anim sint incididunt ad aute et ullamco.
                             </p>
-                            <br/>
                             <br/>
                             <br/>
                             <p className='techIntro'>Technologies:</p>

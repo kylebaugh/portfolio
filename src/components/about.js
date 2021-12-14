@@ -6,7 +6,7 @@ import profilePicture from '../assets/pictures/Headshot.jpg'
 const About = () => {
 
     return (
-        <div className='home-body'>
+        <div className='about-body'>
             <section className='home-header'>
                 <section className='home-develop'>
                     <section>About Me</section>
