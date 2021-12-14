@@ -21,6 +21,13 @@
     align-items: center;
   
   }
+
+  .contact-develop{
+    color:aliceblue;
+    height:45px;
+    font-size: 40px;
+    font-weight: bolder;
+  }
   
   .contactFull{
     display:flex;
@@ -44,6 +51,7 @@
     width: 70%;
     font-size: 20px;
     text-align: center;
+    /* background-color: thistle; */
   }
   
   .contact-form{
@@ -57,34 +65,36 @@
   }
   
   .name-input{
+    height:22px;
     border-radius: 6px;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
-    color:black;
+    border-color: #8B8C89;
+    color:#8B8C89;
     font-size: 16px;
-    background-color: #8b8c8979;
-    width:75%
+    background-color: transparent;
+    width:90%
   }
   
   .name-input::placeholder{
-    color:black;
+    color:#8B8C89;
     font-size: 16px;
   }
   
   .email-input{
+    height:22px;
     border-radius: 6px;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
-    color:black;
+    border-color: #8B8C89;
+    color:#8B8C89;
     font-size: 16px;
-    background-color: #8b8c8979;
-    width:75%
+    background-color: transparent;
+    width:90%
   }
   
   .email-input::placeholder{
-    color:black;
+    color:#8B8C89;
     font-size: 16px;
   }
   
@@ -92,18 +102,19 @@
     border-radius: 6px;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
-    color:black;
+    border-color: #8B8C89;
+    color:#8B8C89;
     font-size: 16px;
-    background-color: #8b8c8979;
-    width:75%;
+    background-color: transparent;
+    width:90%;
     height:130px;
   
   }
   
   .message-input::placeholder{
-    color:black;
+    color:#8B8C89;
     font-size: 16px;
+    padding-top: 1px;
   }
   
   
@@ -156,3 +167,37 @@
     font-weight: bold;
   }
   
+  @media(max-width:992px){
+    
+    .contactFull{
+      width: 50%;
+      height:62.5%;
+    }
+
+  }
+
+  @media (max-width:768px){
+    
+    .contactFull{
+      /* align-self: center; */
+      width: 65%;
+      margin-left: 0%;
+    }
+
+    .logo{
+      height:55px;
+    }
+  }
+
+  @media(max-width:576px){
+
+    .contact-develop{
+      font-size: 32px;
+    }
+
+    .contactFull{
+      width:80%;
+      height:70%;
+      margin-left: 10%;
+    }
+  }

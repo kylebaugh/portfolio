@@ -51,7 +51,7 @@ const Contact = () => {
         <div className='contact-body'>
             
             <section className='contact-header'>
-                <section className='home-develop'>
+                <section className='contact-develop'>
                     <section>Contact Page</section>
                 </section>
 
@@ -81,9 +81,9 @@ const Contact = () => {
                 </section>
                 <br/>
                     <section className='contact-form'>
-                        <input value={name} onChange={(e) => setName(e.target.value)} placeholder='Name' className='name-input'/>
-                        <input value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email' className='email-input'/>
-                        <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Message' className='message-input'/>
+                        <input value={name} onChange={(e) => setName(e.target.value)} placeholder=' Name' className='name-input'/>
+                        <input value={email} onChange={(e) => setEmail(e.target.value)} placeholder=' Email' className='email-input'/>
+                        <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder=' Message' className='message-input'/>
                         <button className='submit-button' onClick={sendEmail}>Send</button>
                         
                     </section>

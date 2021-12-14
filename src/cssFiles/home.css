@@ -32,7 +32,6 @@
     color:aliceblue;
     height:30px;
     font-size: 24px;
-    font-weight: bolder;
     margin-top: 2%;
   }
   
@@ -40,7 +39,7 @@
   .home-links{
     display:flex;
     justify-content: space-evenly;
-    width: 40%;
+    width: 35%;
     /* background-color: turquoise; */
   }
   
@@ -102,3 +101,28 @@
     font-size: 22px;
   }
   
+  @media (max-width: 992px){
+    
+    .link-button{
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 768px){
+    
+    .home-develop{
+      font-size: 34px;
+    }
+
+    .header-tag{
+      font-size: 20px;
+    }
+
+    .home-links{
+      width: fit-content;
+    }
+
+    .link-button{
+      font-size: 22px;
+    }
+  }

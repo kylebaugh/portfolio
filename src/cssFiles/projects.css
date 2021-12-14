@@ -32,8 +32,7 @@
   .header-tag{
     color:aliceblue;
     height:30px;
-    font-size: 24px;
-    font-weight: bolder;
+    /* font-weight: bold; */
     margin-top: 2%;
   }
   
@@ -41,17 +40,14 @@
   .home-links{
     display:flex;
     justify-content: space-evenly;
-    width: 40%;
-    /* background-color: turquoise; */
+
   }
   
   .link-button{
     height: 30px;
     background-color: transparent;
     border-style: none;
-    /* color: #6096BA; */
     color: #54bcf0;
-    font-size: 26px;
     font-weight: bolder;
     transition: 0.4s;
 
@@ -59,8 +55,6 @@
   
   .link-button:hover{
     cursor: pointer;
-    /* color:#ffffff; */
-    /* text-shadow: 0 0 4px #ffffff; */
   }
   
   
@@ -106,27 +100,22 @@
   
   .project{
     display:flex;
-    /* flex-direction: column; */
     margin-bottom: 2.5%;
     width:90%;
     justify-content: space-around;
     align-items: center;
     margin-top: 2.5vh;
-    /* margin-left: 10%;
-    margin-right: 10%; */
-    /* background-color: aqua; */
+
   }
 
   .lastProject{
     display:flex;
-    /* flex-direction: column; */
     margin-bottom: 2.5%;
     width:90%;
     justify-content: space-around;
     align-items: center;
     margin-top: 2.5vh;
     padding-bottom: 30px;
-    /* background-color: aqua; */
   }
 
   .projectLeft{
@@ -146,6 +135,8 @@
   .projectVideo{
     margin-top: 20px;
     margin-bottom: 20px;
+    height:283px;
+    width: 504px;
   }
 
   .projectRight{
@@ -183,3 +174,72 @@
     max-height:50px;
   }
   
+  /* RESPONSIVE SECTION */
+
+  @media(max-width: 1200px){
+
+    .projectsList{
+      margin-top: 2.5%;
+    }
+
+    .projectDescription{
+      font-size: 16px;
+    }
+
+    .projectVideo{
+      width: 378px;
+      height: 207px;
+    }
+
+    .techIntro{
+      font-size: 18px;
+    }
+
+    .techImage{
+      max-width: 40px;
+      max-height: 40px;
+    }
+
+  }
+
+  @media (max-width:990px){
+    .projects-develop{
+      font-size: 32px;
+    }
+
+    .home-links{
+      width:fit-content;
+    }
+
+    .projectsList{
+      max-height: 80vh;
+    }
+
+    .projectName{
+      font-size: 24px;
+    }
+    .projectDescription{
+      font-size: 14px;
+    }
+
+    .projectVideo{
+      width: 306px;
+      height: 168px;
+    }
+
+    .techIntro{
+      font-size: 16px;
+    }
+
+    .techImage{
+      max-width: 40px;
+      max-height: 40px;
+    }
+  }
+
+  @media (max-width: 850px){
+    .techImage{
+      max-width: 30px;
+      max-height: 30px;
+    }
+  }
