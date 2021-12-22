@@ -11,6 +11,11 @@
     background-repeat: none;
   }
   
+@font-face {
+  font-family: 'ideoma';
+  src: url(../assets/fonts/intersect.c-brk.ttf) format('opentype');
+}
+
   .home-header{
     display:flex;
     width:90%;
@@ -26,13 +31,25 @@
     height:45px;
     font-size: 40px;
     font-weight: bolder;
+
   }
   
+  .mainLogo{
+    height:150px;
+    margin-left: -10px;
+    margin-top: -10px;
+    /* height:100px;
+    margin-left: -35px; */
+  }
+
+
   .header-tag{
     color:aliceblue;
     height:30px;
     font-size: 24px;
     margin-top: 2%;
+    font-family: sans-serif;
+
   }
   
   

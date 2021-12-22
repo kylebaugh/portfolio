@@ -8,6 +8,9 @@ import '../cssFiles/contact.css'
 import github from '../assets/pictures/githubLogo.png'
 import linkedin from '../assets/pictures/linkedinLogo.png'
 import facebook from '../assets/pictures/facebookLogo.png'
+import mainLogo from '../assets/logos/circle.png'
+// import mainLogo from '../assets/logos/no-eye.png'
+// import mainLogo from '../assets/logos/bottom-eye.png'
 
 const Contact = () => {
     const [name, setName] = useState('')
@@ -52,7 +55,9 @@ const Contact = () => {
             
             <section className='contact-header'>
                 <section className='contact-develop'>
-                    <section>Contact Page</section>
+                    <img src={mainLogo} alt='main logo' class='contactLogo'/>
+                    {/* <section className='header-name'>Kyle Baugh</section>
+                    <section className='header-tag'>Full-Stack Web Developer</section>4 */}
                 </section>
 
                 <section className='home-links'>

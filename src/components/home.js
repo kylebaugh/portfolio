@@ -1,6 +1,8 @@
 import {Link} from 'react-router-dom'
+import mainLogo from '../assets/logos/circle.png'
+// import mainLogo from '../assets/logos/no-eye.png'
+// import mainLogo from '../assets/logos/bottom-eye.png'
 import '../cssFiles/home.css'
-// import '../../src/home.css'
 
 const Home = () => {
 
@@ -8,8 +10,9 @@ const Home = () => {
         <div className='home-body'>
             <section className='home-header'>
                 <section className='home-develop'>
-                    <section className='header-name'>Kyle Baugh</section>
-                    <section className='header-tag'>Full-Stack Web Developer</section>
+                    <img src={mainLogo} alt='main logo' class='mainLogo'/>
+                    {/* <section className='header-name'>Kyle Baugh</section>
+                    <section className='header-tag'>Full-Stack Web Developer</section>4 */}
                 </section>
                 <section className='home-links'>
                     {/* <Link to='/'>
@@ -33,7 +36,7 @@ const Home = () => {
             </section>
             <section className='hero-description'>
                 <section>
-                    A graduate from DevMountain with a passion for buildling
+                    A Full-Stack Web Development graduate from DevMountain with a passion for buildling
                     full-stack, efficient, and visually stimulating programs.
                 </section>
             </section>

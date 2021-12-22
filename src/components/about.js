@@ -2,6 +2,9 @@ import {Link} from 'react-router-dom'
 // import profilePicture from '../assets/pictures/profileNoBackground.png'
 import '../cssFiles/about.css'
 import profilePicture from '../assets/pictures/Headshot.jpg'
+import mainLogo from '../assets/logos/circle.png'
+// import mainLogo from '../assets/logos/no-eye.png'
+// import mainLogo from '../assets/logos/bottom-eye.png'
 
 const About = () => {
 
@@ -9,7 +12,9 @@ const About = () => {
         <div className='about-body'>
             <section className='home-header'>
                 <section className='home-develop'>
-                    <section>About Me</section>
+                    <img src={mainLogo} alt='main logo' class='aboutLogo'/>
+                    {/* <section className='header-name'>Kyle Baugh</section>
+                    <section className='header-tag'>Full-Stack Web Developer</section>4 */}
                 </section>
                 <section className='home-links'>
                     <Link to='/'>
