@@ -8,6 +8,9 @@ import emailJsLogo from '../assets/icons/emailJsLogo.png'
 import nodeJsLogo from '../assets/icons/nodeJsLogo.png'
 import reactLogo from '../assets/icons/reactLogo.png'
 import reduxLogo from '../assets/icons/reduxLogo.png'
+import mainLogo from '../assets/logos/circle.png'
+// import mainLogo from '../assets/logos/no-eye.png'
+// import mainLogo from '../assets/logos/bottom-eye.png'
 
 const Projects = () => {
 
@@ -15,7 +18,9 @@ const Projects = () => {
         <div className='projects-body'>
             <section className='projects-header'>
                 <section className='projects-develop'>
-                    <section>Projects</section>
+                    <img src={mainLogo} alt='main logo' class='projectLogo'/>
+                    {/* <section className='header-name'>Kyle Baugh</section>
+                    <section className='header-tag'>Full-Stack Web Developer</section>4 */}
                 </section>
                 
                 <section className='home-links'>
