@@ -37,7 +37,9 @@
   }
   
   .projectLogo{
-    height:150px;
+    width:10vw;
+    max-width: 150px;
+    min-width: 110px;
     margin-left: -10px;
     margin-top: -10px;
     /* height:100px;
@@ -70,8 +72,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-top: 2.5%;
     /* min-height: 70vh; */
-    max-height: 75vh;
+    max-height: 70vh;
     align-self: center;
     width:75vw;
     background-color: rgba(0, 0, 0, 0.749);
@@ -183,10 +186,25 @@
   
   /* RESPONSIVE SECTION */
 
-  @media(max-width: 1200px){
+
+  @media(max-width: 1300px){
+
+    .projectLogo{
+      min-width:110px;
+      margin-left: -10px;
+      margin-top: -10px;
+      /* height:100px;
+      margin-left: -35px; */
+    }
+
+    .home-links{
+      width: 50%;
+    }
 
     .projectsList{
-      margin-top: 2.5%;
+      margin-top: 3.5%;
+      width:82.5vw;
+      max-height: 70vh;
     }
 
     .projectDescription{
@@ -220,6 +238,7 @@
 
     .projectsList{
       max-height: 80vh;
+      margin-top: 4%;
     }
 
     .projectName{
@@ -245,6 +264,11 @@
   }
 
   @media (max-width: 850px){
+    .projectsList{
+      max-height: 80vh;
+      margin-top: 5%;
+    }
+
     .techImage{
       max-width: 30px;
       max-height: 30px;
