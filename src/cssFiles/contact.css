@@ -30,7 +30,9 @@
   }
 
   .contactLogo{
-    height:150px;
+    width: 10vw;
+    max-width: 150px;
+    min-width: 110px;
     margin-left: -10px;
     margin-top: -10px;
     /* height:100px;
@@ -57,7 +59,7 @@
   
   .contactGreeter{
     width: 70%;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     /* background-color: thistle; */
   }
@@ -140,6 +142,7 @@
     color: white;
     background-color:#54bcf0;
     border-radius: 6px;
+    margin-bottom: -5%;
   }
   
   .connection-section{
@@ -148,11 +151,12 @@
     align-items: center;
     max-width: 90%;
     padding-bottom: 5%;
+    margin-bottom: 5%;
   }
   
   .connection-prompt{
-    font-size: 22px;
-    margin-bottom: 25px;
+    font-size: 20px;
+    /* margin-bottom: 15px; */
   }
   
   .connection-icons{
@@ -162,7 +166,7 @@
   }
   
   .logo{
-    height: 65px;
+    height: 50px;
    }
   
   .logo:hover{
@@ -174,12 +178,21 @@
     font-size: 25px;
     font-weight: bold;
   }
+
+  /* @media (max-width:1300px){
+
+    .contactLogo{
+      height:110px;
+    }
+
+
+  } */
   
   @media(max-width:992px){
     
-    .contactLogo{
+    /* .contactLogo{
       height: 125px;
-    }
+    } */
     .contactFull{
       width: 50%;
       height:62.5%;
@@ -196,9 +209,9 @@
       margin-top: 5%;
     }
 
-    .logo{
+    /* .logo{
       height:55px;
-    }
+    } */
   }
 
   @media(max-width:576px){

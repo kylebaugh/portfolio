@@ -35,7 +35,9 @@
   }
   
   .mainLogo{
-    height:150px;
+    width: 10vw;
+    max-width: 150px;
+    min-width: 110px;
     margin-left: -10px;
     margin-top: -10px;
     /* height:100px;
@@ -116,6 +118,20 @@
     padding-bottom: 5%;
     max-width: 40%;
     font-size: 22px;
+  }
+
+  @media(max-width: 1300px){
+
+    .home-hero{
+      margin-top: 65px;
+    }
+
+    .hero-tombstone{
+      font-size: 64px;
+
+    }
+
+
   }
   
   @media (max-width: 992px){
