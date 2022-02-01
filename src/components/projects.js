@@ -41,54 +41,14 @@ const Projects = () => {
 
             <section className='projectsList'>
                 <section class='content'>
-
-                    <section className='project'>
-                        <section class='projectLeft'>
-                            <p className='projectName'>Hypogean Dominion</p>
-                            <iframe 
-                                className='projectVideo'
-                                // width="504"
-                                // height="283.5" 
-                                src="https://www.youtube.com/embed/TI2uGmdzhzw" 
-                                title="YouTube video player" 
-                                frameBorder="0" 
-                                allow="accelerometer; 
-                                autoplay; 
-                                clipboard-write; 
-                                encrypted-media; 
-                                gyroscope; 
-                                picture-in-picture;" 
-                                allowFullScreen='allowfullscreen'
-                                >
-                            </iframe>
-                        </section>
-                        <section class='projectRight'>
-                            <br/>
-                            <br/>
-                        <br/>
-                            <p className='projectDescription'>
-                            A description of this site will go here, touching on the different tecnologies and frustrations that will be further elaborated on in the video itself.                            </p>
-                            <br/>
-                            <br/>
-                            <p className='techIntro'>Technologies:</p>
-                            <br/>
-                            <section className='projectTechs'>
-                                <img src={reactLogo} alt='React Icon' className='techImage'/>
-                                <img src={nodeJsLogo} alt='Node.js Icon' className='techImage'/>
-                                <img src={audacityLogo} alt='Audacity Icon' className='techImage'/>
-                                
-                            </section>
-                        </section>
-                    </section>
-                    <br/>
-                    <section className='project'>
+ <section className='project'>
                         <section class='projectLeft'>
                             <p className='projectName'>Terminology Glossary</p>
                             <iframe 
                                 className='projectVideo'
                                 // width="504"
                                 // height="283.5" 
-                                src="https://www.youtube.com/embed/TI2uGmdzhzw" 
+                                src="https://youtube.com/embed/uwqwWoJihA0" 
                                 title="YouTube video player" 
                                 frameBorder="0" 
                                 allow="accelerometer; 
@@ -106,9 +66,11 @@ const Projects = () => {
                             <br/>
 
                             <p className='projectDescription'>
-                                Ad laboris deserunt veniam ad elit duis. Aliquip ad veniam elit fugiat fugiat. Dolor anim sint incididunt ad aute et ullamco.
+                                This was my very first solo full-stack application! I created a terminology glossary to help bootcamp students stay on top of the different terms that go with the various technologies.
+                                <br/>
+                                <br/>
+                                <a class='repoUrl' href='https://github.com/kylebaugh/personal-project'>GitHub Repo</a>
                             </p>
-                            <br/>
                             <br/>
                             <p className='techIntro'>Technologies:</p>
                             <br/>
@@ -124,15 +86,14 @@ const Projects = () => {
                             </section>
                         </section>
                     </section>
-
                     <section className='project'>
                         <section class='projectLeft'>
-                            <p className='projectName'>Whos At</p>
+                            <p className='projectName'>Hypogean Dominion</p>
                             <iframe 
                                 className='projectVideo'
                                 // width="504"
                                 // height="283.5" 
-                                src="https://www.youtube.com/embed/TI2uGmdzhzw" 
+                                src="https://www.youtube.com/embed/07Z07zlzl-A" 
                                 title="YouTube video player" 
                                 frameBorder="0" 
                                 allow="accelerometer; 
@@ -148,29 +109,37 @@ const Projects = () => {
                         <section class='projectRight'>
                             <br/>
                             <br/>
+                        <br/>
                             <p className='projectDescription'>
-                                A description of this site will go here, touching on the different tecnologies and frustrations that will be further elaborated on in the video itself.
+                                This was my capstone project for graduation at Devmountain. It is a fully-functional Rogue-like game, built entirely in React!
                             </p>
                             <br/>
+                            
+                            <section><a class='repoUrl' href='https://hypogeandominion.com/'>Live Site</a> | <a class='repoUrl' href='https://github.com/wlr-1-rogues/roguelike'>GitHub Repo</a></section>
                             <br/>
+                            
+
                             <p className='techIntro'>Technologies:</p>
                             <br/>
                             <section className='projectTechs'>
                                 <img src={reactLogo} alt='React Icon' className='techImage'/>
                                 <img src={nodeJsLogo} alt='Node.js Icon' className='techImage'/>
+                                <img src={audacityLogo} alt='Audacity Icon' className='techImage'/>
+                                
                             </section>
                         </section>
                     </section>
                     <br/>
+                   
 
-                    <section className='lastProject'>
-                        <section class='projectLeft'>
+                    <section className='project'>
+                    <section class='projectLeft'>
                             <p className='projectName'>Find TQC</p>
                             <iframe 
                                 className='projectVideo'
                                 // width="504"
                                 // height="283.5" 
-                                src="https://www.youtube.com/embed/TI2uGmdzhzw" 
+                                src="https://www.youtube.com/embed/0P-LEd6MEUg" 
                                 title="YouTube video player" 
                                 frameBorder="0" 
                                 allow="accelerometer; 
@@ -188,9 +157,11 @@ const Projects = () => {
                             <br/>
                         <br/>
                             <p className='projectDescription'>
-                                Ad laboris deserunt veniam ad elit duis. Aliquip ad veniam elit fugiat fugiat. Dolor anim sint incididunt ad aute et ullamco.
+                                This was the first site I built after graduating from Devmountain! It is a lead-generation application to help hiring managers find qualfied candidates for their open positions.
+                                <br/>
+                                <br/>
+                                <section><a class='repoUrl' href='https://findtqc.com/'>Live Site</a> | <a class='repoUrl' href='https://github.com/kylebaugh/qualified-candidates'>GitHub Repo</a></section>
                             </p>
-                            <br/>
                             <br/>
                             <p className='techIntro'>Technologies:</p>
                             <br/>
@@ -198,6 +169,47 @@ const Projects = () => {
                                 <img src={reactLogo} alt='React Icon' className='techImage'/>
                                 <img src={nodeJsLogo} alt='Node.js Icon' className='techImage'/>
                                 <img src={emailJsLogo} alt='Email.js Icon' className='techImage'/>
+                            </section>
+                        </section>
+                    </section>
+                    <br/>
+
+                    <section className='lastProject'>
+
+                    <section class='projectLeft'>
+                            <p className='projectName'>Who's At</p>
+                            <iframe 
+                                className='projectVideo'
+                                // width="504"
+                                // height="283.5" 
+                                src="https://www.youtube.com/embed/GUf0nKm7Duc" 
+                                title="YouTube video player" 
+                                frameBorder="0" 
+                                allow="accelerometer; 
+                                autoplay; 
+                                clipboard-write; 
+                                encrypted-media; 
+                                gyroscope; 
+                                picture-in-picture;" 
+                                allowFullScreen='allowfullscreen'
+                                >
+                            </iframe>
+                        </section>
+                        <section class='projectRight'>
+                            <br/>
+                            <br/>
+                            <p className='projectDescription'>
+                                This site was built to explain the basics of the Who's At application, as well as help customers find and download the app to their specific device.
+                                <br/>
+                                <br/>
+                                <section><a class='repoUrl' href='https://whosatapp.com/'>Live Site</a> | <a class='repoUrl' href='https://github.com/kylebaugh/whos-at'>GitHub Repo</a></section>
+                            </p>
+                            <br/>
+                            <p className='techIntro'>Technologies:</p>
+                            <br/>
+                            <section className='projectTechs'>
+                                <img src={reactLogo} alt='React Icon' className='techImage'/>
+                                <img src={nodeJsLogo} alt='Node.js Icon' className='techImage'/>
                             </section>
                         </section>
                     </section>
