@@ -164,6 +164,11 @@
     width:100%;
   }
   
+  .repoUrl{
+    color:#54bcf0;
+    font-size: 20px;
+  }
+
   .techIntro{
     font-size: 22px;
   }
