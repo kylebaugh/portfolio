@@ -18,15 +18,15 @@ const Projects = () => {
         <div className='projects-body'>
             <section className='projects-header'>
                 <section className='projects-develop'>
-                    <img src={mainLogo} alt='main logo' class='projectLogo'/>
+                    <Link to='/'>
+                        <img src={mainLogo} alt='main logo' class='projectLogo'/>
+                    </Link>
                     {/* <section className='header-name'>Kyle Baugh</section>
                     <section className='header-tag'>Full-Stack Web Developer</section>4 */}
                 </section>
                 
                 <section className='home-links'>
-                    <Link to='/'>
-                        <button className='link-button'>Home</button>
-                    </Link>
+
                     <Link to='/projects'> 
                         <button className='link-button'>Projects</button>
                     </Link>

@@ -55,15 +55,14 @@ const Contact = () => {
             
             <section className='contact-header'>
                 <section className='contact-develop'>
-                    <img src={mainLogo} alt='main logo' class='contactLogo'/>
+                    <Link to='/'>
+                        <img src={mainLogo} alt='main logo' class='contactLogo'/>
+                    </Link>
                     {/* <section className='header-name'>Kyle Baugh</section>
                     <section className='header-tag'>Full-Stack Web Developer</section>4 */}
                 </section>
 
                 <section className='home-links'>
-                    <Link to='/'>
-                        <button class='link-button'>Home</button>
-                    </Link>
                     <Link to='/projects'>
                         <button class='link-button'>Projects</button>
                     </Link>
