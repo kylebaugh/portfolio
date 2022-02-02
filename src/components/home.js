@@ -36,7 +36,7 @@ const Home = () => {
             </section>
             <section className='hero-description'>
                 <section>
-                    A Full-Stack Web Development graduate from DevMountain with a passion for buildling
+                    A Full-Stack Web Development graduate from DevMountain with a passion for building
                     full-stack, efficient, and visually stimulating programs.
                 </section>
             </section>
