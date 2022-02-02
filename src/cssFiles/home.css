@@ -158,4 +158,8 @@
     .link-button{
       font-size: 22px;
     }
+
+    .hero-description{
+      max-width: 65%;
+    }
   }
