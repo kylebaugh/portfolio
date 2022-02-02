@@ -109,13 +109,13 @@ const Projects = () => {
                         <section class='projectRight'>
                             <br/>
                             <br/>
-                        <br/>
                             <p className='projectDescription'>
                                 This was my capstone project for graduation at Devmountain. It is a fully-functional Rogue-like game, built entirely in React!
                             </p>
                             <br/>
                             
-                            <section><a class='repoUrl' href='https://hypogeandominion.com/'>Live Site</a> | <a class='repoUrl' href='https://github.com/wlr-1-rogues/roguelike'>GitHub Repo</a></section>
+                            <section class='repoSection'><a class='repoUrl' href='https://hypogeandominion.com/'>Live Site</a> | <a class='repoUrl' href='https://github.com/wlr-1-rogues/roguelike'>GitHub Repo</a></section>
+
                             <br/>
                             
 

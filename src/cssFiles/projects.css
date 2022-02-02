@@ -287,6 +287,10 @@
       flex-direction: column;
     }
 
+    .projectName{
+      font-size: 28px;
+    }
+
     .projectDescription{
       width:200%;
       margin-top: -15%;
@@ -294,6 +298,11 @@
 
     .repoUrl{
       font-size: 18px;
+
+    }
+
+    .repoSection{
+      width:200%;
     }
 
     .techImage{
