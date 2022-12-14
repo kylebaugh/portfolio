@@ -9,8 +9,7 @@ import github from '../assets/pictures/githubLogo.png'
 import linkedin from '../assets/pictures/linkedinLogo.png'
 import facebook from '../assets/pictures/facebookLogo.png'
 import mainLogo from '../assets/logos/circle.png'
-// import mainLogo from '../assets/logos/no-eye.png'
-// import mainLogo from '../assets/logos/bottom-eye.png'
+
 
 const Contact = () => {
     const [name, setName] = useState('')
@@ -34,7 +33,7 @@ const Contact = () => {
     
     const sendEmail = () => {
         // submitted()
-        axios.post('https://formsubmit.co/kyle.devmountain@gmail.com', {name, email, message})
+        axios.post('https://formsubmit.co/5945b625cbc10b9a69d23760f01eb874', {name, email, message})
             .then((res) => {
                 console.log(res.data)
                 // alert('Email sent!')
