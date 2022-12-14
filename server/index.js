@@ -32,7 +32,8 @@ app.listen(SERVER_PORT, () => {console.log(`Server connected on ${SERVER_PORT}.`
 
 // Endpoints
 
-app.post('/message', emailCtrl.sendEmail)
+// replaced with FormSubmit
+// app.post('/message', emailCtrl.sendEmail)
 
 // Server 
 // app.use(express.static(__dirname + '/../build'))
