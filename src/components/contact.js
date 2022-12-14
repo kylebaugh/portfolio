@@ -33,7 +33,7 @@ const Contact = () => {
     
     const sendEmail = () => {
         // submitted()
-        axios.post('https://formsubmit.co/kylebaugh1@gmail.com', {name, email, message})
+        axios.post('https://formsubmit.co/8cd77a386b50e6be6726e6dfbd1bb3a5', {name, email, message})
             .then((res) => {
                 console.log(res.data)
                 // alert('Email sent!')
