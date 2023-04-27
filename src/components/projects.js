@@ -69,7 +69,8 @@ const Projects = () => {
                                 This was my very first solo full-stack application! I created a terminology glossary to help bootcamp students stay on top of the different terms that go with the various technologies.
                                 <br/>
                                 <br/>
-                                <a class='repoUrl' href='https://github.com/kylebaugh/personal-project'>GitHub Repo</a>
+                                <section class='repoSection'><a class='repoUrl' href='https://mywebdevglossary.com/'>Live Site</a> | <a class='repoUrl' href='https://github.com/kylebaugh/personal-project'>GitHub Repo</a></section>
+
                             </p>
                             <br/>
                             <p className='techIntro'>Technologies:</p>

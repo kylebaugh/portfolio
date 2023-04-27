@@ -36,7 +36,10 @@ const About = () => {
                     <img class='profilePic' src={profilePicture} alt='Profile Pic' />
                 </section>
                 <section className='about-text'>
-                    Hello! My name is Kyle Baugh. I am a full-stack web developer who loves solving puzzles and learning new things! I graduated from the Web Development program at Devmountain in July of 2021, which is where I currently work as a Mentor for their Foundations program. When I'm not coding, you can find me on the stage, reading, or spending time with my wonderful dog.
+                    Hello! My name is Kyle Baugh. I am a full-stack web developer who loves solving puzzles and 
+                    learning new things! I graduated from the Web Development program at Devmountain in July of 2021, 
+                    which is where I currently work as a Lead Instructor for their React Web Development program. When I'm not coding, 
+                    you can find me on the stage, reading, or spending time with my wonderful dog.
                 </section>
             </section>
         </div>
