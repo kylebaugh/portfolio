@@ -33,7 +33,7 @@ const About = () => {
             </section>
             <section className='about-me'>
                 <section className='about-picture'>
-                    <img class='profilePic' src={profilePicture} alt='Profile Pic' />
+                    <img className='profilePic' src={profilePicture} alt='Profile Pic' />
                 </section>
                 <section className='about-text'>
                     Hello! My name is Kyle Baugh. I am a full-stack web developer who loves solving puzzles and 

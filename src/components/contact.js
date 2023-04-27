@@ -33,9 +33,9 @@ const Contact = () => {
     
     const sendEmail = () => {
         // submitted()
-        axios.post('https://formsubmit.co/kyle.devmountain@gmail.com', {name, email, message})
+        axios.post('https://formsubmit.co/a19a1eb85ff1460bbabdaefa4a471a81', {name, email, message})
             .then((res) => {
-                console.log(res.data)
+                console.log(res.status)
                 // alert('Email sent!')
                 setName('')
                 setEmail('')
