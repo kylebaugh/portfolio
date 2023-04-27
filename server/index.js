@@ -1,6 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const session = require('express-session')
+const axios = require('axios')
 // const massive = require('massive')
 const path = require('path')
 
@@ -46,3 +47,10 @@ app.use(express.static(__dirname + '/../build'))
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../build/index.html'))
 })
+
+setInterval(() => {
+    axios.get('https://formsubmit.co/confirm/a19a1eb85ff1460bbabdaefa4a471a81')
+        .then((res) => {
+            console.log(res.status)
+        })
+}, 8640000);
