@@ -30,28 +30,28 @@ const Contact = () => {
             },
         })
     }
-    
+
     const sendEmail = () => {
-        // submitted()
-        axios.post('https://formsubmit.co/a19a1eb85ff1460bbabdaefa4a471a81', {name, email, message})
-            .then((res) => {
-                console.log(res.status)
-                // alert('Email sent!')
-                setName('')
-                setEmail('')
-                setMessage('')
-                submitted()
-            })
-            .catch(err => {
-                console.log(err)
-                // console.log(err.data)
-                console.log('Email send error')
-            })
+        submitted()
+        // axios.post('https://formsubmit.co/a19a1eb85ff1460bbabdaefa4a471a81', {name, email, message})
+        //     .then((res) => {
+        //         console.log(res.status)
+        //         // alert('Email sent!')
+        //         setName('')
+        //         setEmail('')
+        //         setMessage('')
+        //         submitted()
+        //     })
+        //     .catch(err => {
+        //         console.log(err)
+        //         // console.log(err.data)
+        //         console.log('Email send error')
+        //     })
     }
 
     return (
         <div className='contact-body'>
-            
+
             <section className='contact-header'>
                 <section className='contact-develop'>
                     <Link to='/'>
@@ -74,7 +74,7 @@ const Contact = () => {
                 </section>
             </section>
 
-            
+
             <section className='contactFull'>
                 <section className='contactGreeter'>
                     I would love to hear from you!
@@ -88,7 +88,7 @@ const Contact = () => {
                         <input value={email} onChange={(e) => setEmail(e.target.value)} placeholder=' Email' className='email-input'/>
                         <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder=' Message' className='message-input'/>
                         <button className='submit-button' onClick={sendEmail}>Send</button>
-                        
+
                     </section>
                     <br/>
                     <br/>
