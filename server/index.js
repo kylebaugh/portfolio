@@ -22,21 +22,21 @@ const emailCtrl = require('./controllers/emailController')
 // Top Level Middleware
 app.use(express.json())
 app.use(session({
-    secret: SESSION_SECRET,
-    resave: false, 
-    saveUninitialized: true, 
+    secret: 'j39fn1hjao3z93971va3n28x134j2nal0088',
+    resave: false,
+    saveUninitialized: true,
     cookie: {maxAge: 1000 * 60 * 60 * 24}
 }))
 
 
-app.listen(SERVER_PORT, () => {console.log(`Server connected on ${SERVER_PORT}.`)})
+app.listen(5240, () => {console.log(`Server connected on 5240.`)})
 
 // Endpoints
 
 // replaced with FormSubmit
 // app.post('/message', emailCtrl.sendEmail)
 
-// Server 
+// Server
 // app.use(express.static(__dirname + '/../build'))
 // app.get('*', (req, res) => {
 //     res.sendFile(path.join(__dirname, '../build/index.html'))
